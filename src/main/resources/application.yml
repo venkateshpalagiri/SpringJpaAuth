@@ -1,0 +1,13 @@
+#spring.application.name=SpringJpaAuth
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SpringJpaAuth
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true #for development purpose
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
